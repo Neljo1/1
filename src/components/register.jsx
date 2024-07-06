@@ -12,35 +12,34 @@ function Register(){
    
 return(
 <div
-  style={{ backgroundSize: "100%", backgroundImage: "url(/coll/19333449.jpg)" }}
+  style={{
+    size: "100px",
+    backgroundImage: "url(./19333449.jpg)",
+    backgroundSize:'cover',
+    height:'650px'
+  }}
 >
   <div
     style={{
       display: "flex",
       justifyContent: "center",
       height: "100%",
-      width: "100%",
+   
       alignItems: "center"
     }}
   >
     <div
       style={{
-        backgroundColor: "rgba(12, 11, 11, 0.444)",
-        height: "35%",
-        width: "35%",
-        padding: 7,
+        backgroundColor: "rgba(29, 25, 25, 0.595)",
+        height: "38%",
+        width: "40%",
+        padding: 8,
         justifyContent: "center",
         borderRadius: 15,
         border: "5px solid rgb(54, 227, 210)"
       }}
     >
-      <h1
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          color: "aliceblue"
-        }}
-      >
+      <h1 style={{ display: "flex", justifyContent: "center", color: "white" }}>
         <u>Register</u>
       </h1>
       <div
@@ -120,7 +119,7 @@ return(
           display: "flex"
         }}
       >
-        <a href="/index">
+        <a href="/home">
           <button>Home</button>
         </a>
        

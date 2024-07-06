@@ -6,6 +6,7 @@ import Register from "./components/register";
 import Errore from "./components/Error";
 
 import {BrowserRouter,Route,Routes} from 'react-router-dom';
+import Home from "./components/home";
 
 function App() {
   return (
@@ -13,14 +14,15 @@ function App() {
     <NavBar />
      <BrowserRouter>
      <Routes>
-      <Route path="/" element={<Login />}/>
+      <Route path="/" element={<Home />}/>
      <Route path ="/register" element={<Register />}/>
      <Route path ="/login" element={<Login />}/>
      <Route path ="/calculator" element={<Calculator />}/>
+     <Route path ="/home" element={<Home />}/>
      <Route path="/*" element={<Errore />}/>
      </Routes>
       </BrowserRouter>
-    <Footer />
+      <Footer />
     </>
     
   );

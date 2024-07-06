@@ -19,7 +19,11 @@ function NavBar()
             <button style={{backgroundColor: 'black', border: 10,color: 'white',}}>
                 About us
             </button></a>
-           < a href="/register">
+            <a href="/calculator">
+            <button style={{backgroundColor: 'black', border: 10,color: 'white',}}>
+            Calculator                
+            </button></a>
+           < a href="/home">
             <button  style={{backgroundColor: 'black', border: 10,color: 'white',}}>
                 Home
             </button></a>

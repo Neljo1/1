@@ -4,8 +4,9 @@ function Login(){
 <div
   style={{
     size: "100px",
-    backgroundImage: "url(./19333449.jpg)"
-    
+    backgroundImage: "url(./19333449.jpg)",
+    backgroundSize:'cover',
+    height:'650px'
   }}
 >
   <div
@@ -13,16 +14,16 @@ function Login(){
       display: "flex",
       justifyContent: "center",
       height: "100%",
-      width: "100%",
+   
       alignItems: "center"
     }}
   >
     <div
       style={{
         backgroundColor: "rgba(29, 25, 25, 0.595)",
-        height: "29%",
+        height: "35%",
         width: "40%",
-        padding: 7,
+        padding: 8,
         justifyContent: "center",
         borderRadius: 15,
         border: "5px solid rgb(54, 227, 210)"
