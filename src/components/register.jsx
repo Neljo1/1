@@ -108,7 +108,7 @@ return(
             justifyContent: "end",
             alignItems: "end"
           }}
-          href="login.html"
+          href="/login"
         >
           <button>Login</button>
         </a>
@@ -120,7 +120,7 @@ return(
           display: "flex"
         }}
       >
-        <a href="index.html">
+        <a href="/index">
           <button>Home</button>
         </a>
        

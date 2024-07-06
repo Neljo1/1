@@ -66,7 +66,7 @@ function Login(){
       </div>
       <div style={{ color: "whitesmoke" }}>
         Not registered yet?
-        <a href="register.html">
+        <a href="/register">
           <button>Register</button>
         </a>
       </div>
